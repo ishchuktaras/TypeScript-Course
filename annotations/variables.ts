@@ -10,7 +10,7 @@ let now: Date = new Date();
 
 //array
 let colors: string[] = ['red', 'green', 'blue'];
-let number: number[] = [1, 2, 3, 5];
+let numbers: number[] = [1, 2, 3, 5];
 let resaults: boolean[] = [true, false];
 
 //classes
@@ -21,7 +21,7 @@ class Car {
 let car: Car = new Car();
 
 //object literal
-let point {x: number; y: number} = {
+let point: {x: number; y: number} = {
   x: 10,
   y: 20
-}
+};
