@@ -6,7 +6,6 @@ let nothing: null = null;
 let nothing1: undefined = undefined;
 
 // Built-in odjects
-// Built-in odjects
 let now: Date = new Date();
 
 //array
