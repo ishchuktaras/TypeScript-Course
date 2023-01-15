@@ -36,3 +36,21 @@ const logNumber: (i: number) => void = (i) => {
 const json = '{"x": 10, "y": 20}';
 const coordinates: {x: number; y: number} = JSON.parse (json);
 console.log(coordinates);
+
+// 2) When declare a variable on one line and initialize it later
+let words = ['one', 'two', 'three'];
+let isTwo: boolean;
+
+for (let i = 0; i < words.length; i++) {
+  if (words[i] === 'two') {
+    isTwo = true;
+  }
+}
+
+// 3) Variables whoes type can't be inferred
+let myNumbers = [-10, -5, 12];
+let positiveNumber: boolean | number = false;
+for (let i = 0; i < myNumbers.length; i++)
+if (myNumbers[i] > 0) {
+  positiveNumber = myNumbers[i];
+}
